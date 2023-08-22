@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="6" errors="0" time="13.13">
+  <testsuite name="sample.test.js" errors="0" failures="3" skipped="0" timestamp="2023-08-21T14:28:14" time="12.239" tests="8">
+    <testcase classname="Editor Component" name="test case 1" time="7.508">
+    </testcase>
+    <testcase classname="Editor Component" name="test case 2" time="0.035">
+    </testcase>
+    <testcase classname="Editor Component" name="testing initial settings" time="0.047">
+    </testcase>
+    <testcase classname="Editor Component" name="testing initial settings" time="0.038">
+    </testcase>
+    <testcase classname="Editor Component" name="testing quote currCase alignment" time="0.039">
+      <failure>Error: Unable to find an element with text: Center Align
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra\&quot; \&quot;G&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/sample.test.js:102:22)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Editor Component" name="testing quote currCase alignment" time="0.036">
+      <failure>Error: Unable to find an element with text: Center Align
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra G&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/sample.test.js:141:22)
+    at Generator.next (&lt;anonymous&gt;)
+    at asyncGeneratorStep (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Editor Component" name="testing font button" time="0.091">
+    </testcase>
+    <testcase classname="Editor Component" name="testing bold italian underline" time="0.03">
+      <failure>Error: Unable to find an element with text: Bold
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/sample.test.js:207:21)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="main.test.js" errors="0" failures="3" skipped="0" timestamp="2023-08-21T14:28:14" time="12.243" tests="8">
+    <testcase classname="Editor Component" name="test case 1" time="7.492">
+    </testcase>
+    <testcase classname="Editor Component" name="test case 2" time="0.034">
+    </testcase>
+    <testcase classname="Editor Component" name="testing initial settings" time="0.044">
+    </testcase>
+    <testcase classname="Editor Component" name="testing initial settings" time="0.044">
+    </testcase>
+    <testcase classname="Editor Component" name="testing quote currCase alignment" time="0.033">
+      <failure>Error: Unable to find an element with text: Center Align
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra\&quot; \&quot;G&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/main.test.js:102:22)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Editor Component" name="testing quote currCase alignment" time="0.041">
+      <failure>Error: Unable to find an element with text: Center Align
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra G&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/main.test.js:141:22)
+    at Generator.next (&lt;anonymous&gt;)
+    at asyncGeneratorStep (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (/home/project/expo/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Editor Component" name="testing font button" time="0.095">
+    </testcase>
+    <testcase classname="Editor Component" name="testing bold italian underline" time="0.03">
+      <failure>Error: Unable to find an element with text: Bold
+
+&lt;RCTScrollView&gt;
+  &lt;View&gt;
+    &lt;View&gt;
+      &lt;View&gt;
+        &lt;Text&gt;
+          Text Editor
+        &lt;/Text&gt;
+      &lt;/View&gt;
+      &lt;View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉤
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉷
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰊇
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A+
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              A-
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉢
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉠
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰉣
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              &quot; &quot;
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              UC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+        &lt;View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              LC
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              C
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              󰭜
+            &lt;/Text&gt;
+          &lt;/View&gt;
+          &lt;View&gt;
+            &lt;Text&gt;
+              Analyse
+            &lt;/Text&gt;
+          &lt;/View&gt;
+        &lt;/View&gt;
+      &lt;/View&gt;
+      &lt;TextInput
+        placeholder=&quot;Type something...&quot;
+        value=&quot;pra&quot;
+      /&gt;
+      &lt;RCTScrollView&gt;
+        &lt;View&gt;
+          &lt;TextInput
+            placeholder=&quot;ANALYSIS&quot;
+            value=&quot;{}&quot;
+          /&gt;
+        &lt;/View&gt;
+      &lt;/RCTScrollView&gt;
+    &lt;/View&gt;
+  &lt;/View&gt;
+&lt;/RCTScrollView&gt;
+    at Object.getByText (/home/project/expo/main.test.js:207:21)
+    at Promise.then.completed (/home/project/expo/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/home/project/expo/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/home/project/expo/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/home/project/expo/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/home/project/expo/node_modules/jest-circus/build/run.js:121:9)
+    at run (/home/project/expo/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/home/project/expo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/home/project/expo/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/home/project/expo/node_modules/jest-runner/build/runTest.js:444:34)
+    at Object.worker (/home/project/expo/node_modules/jest-runner/build/testWorker.js:106:12)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
